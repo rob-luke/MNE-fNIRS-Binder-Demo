@@ -3,12 +3,22 @@
 mne-binder
 ==========
 
+This repository allows you to test out MNE processing of fNIRS files without having to install anything locally.
+
+This is a forked version of `MNE-Binder`, see the licensing below for details.
+
 This is a `binder <http://mybinder.org>`_  helper for
 `MNE-Python <http://github.com/mne-tools/mne-python>`_.
 
 Notebooks can be launched with e.g.:
 
     http://mybinder.org/repo/mne-tools/mne-binder/notebooks/plot_introduction.ipynb
+
+
+
+
+
+
 
 Licensing
 ^^^^^^^^^
