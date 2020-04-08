@@ -9,7 +9,8 @@ This is a forked version of `MNE-Binder`, see the licensing below for details.
 
 
 
-## How to use
+How to use
+----------
 
 Notebooks can be launched with e.g.:
 
