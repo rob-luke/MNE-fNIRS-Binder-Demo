@@ -3,6 +3,9 @@
 MNE fNIRS Demo
 ==============
 
+.. image:: https://mybinder.org/badge_logo.svg
+ :target: https://mybinder.org/v2/gh/rob-luke/MNE-fNIRS-Binder-Demo/master?filepath=plot_70_fnirs_processing.ipynb
+
 This repository allows you to test out MNE processing of fNIRS files without having to install anything locally.
 
 This is a forked version of `MNE-Binder`, see the licensing below for details.
@@ -12,10 +15,12 @@ This is a forked version of `MNE-Binder`, see the licensing below for details.
 How to use
 ----------
 
-Notebooks can be launched with e.g.:
+To launch the demo click this button: 
 
-    http://mybinder.org/repo/mne-tools/mne-binder/notebooks/plot_introduction.ipynb
+.. image:: https://mybinder.org/badge_logo.svg
+ :target: https://mybinder.org/v2/gh/rob-luke/MNE-fNIRS-Binder-Demo/master?filepath=plot_70_fnirs_processing.ipynb
 
+This should open a web page and load the tutorial. You can then hit the run button in the toolboar to step through each cell and view the output.
 
 
 Licensing
