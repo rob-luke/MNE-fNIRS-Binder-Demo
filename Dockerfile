@@ -63,9 +63,13 @@ RUN ipython -c "import mne; print(mne.datasets.sample.data_path(verbose=False))"
 RUN ipython -c "import matplotlib.pyplot as plt; print(plt)"
 
 # Download and move ipynb notebooks
-RUN git clone --depth=1 https://github.com/mne-tools/mne-tools.github.io && \
-    mv mne-tools.github.io/dev/auto_tutorials/preprocessing/*.ipynb . && \
-    rm -Rf mne-tools.github.io
+RUN git clone --depth=1 https://github.com/mne-tools/mne-tools.github.io
+
+RUN pwd
+RUN ls
+RUN ls mne-tools.github.io
+RUN ls mne-tools.github.io/dev
+RUN ls mne-tools.github.io/dev/auto_tutorials
 
 # Configure the MNE raw browser window to use the full width of the notebook
 RUN ipython -c "import mne; mne.set_config('MNE_BROWSE_RAW_SIZE', '9.8, 7')"
