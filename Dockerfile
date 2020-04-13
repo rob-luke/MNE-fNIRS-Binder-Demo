@@ -46,7 +46,8 @@ RUN pip install vtk && \
     pip install scipy && \
     pip install xvfbwrapper && \
     pip install https://github.com/nipy/PySurfer/archive/master.zip && \
-    pip install https://codeload.github.com/mne-tools/mne-python/zip/master
+    pip install https://codeload.github.com/mne-tools/mne-python/zip/master && \
+    pip install https://codeload.github.com/rob-luke/mne-nirs/zip/master
 
 # Install Jupyter notebook extensions
 RUN pip install RISE && \
